@@ -1,0 +1,29 @@
+.main-container {
+  background: linear-gradient(#dedddd, #fff);
+}
+
+.pokemon-name {
+  padding-top: 1rem;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.loading {
+  text-align: center;
+}
+
+.spinner {
+  width: 8%;
+}
+
+/* 760+ px display */
+@media (min-width: 47.5rem) {
+  .result-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}

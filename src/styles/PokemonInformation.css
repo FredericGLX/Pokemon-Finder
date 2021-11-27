@@ -1,0 +1,69 @@
+/* Info container top left */
+.info-container {
+  background-color: #ffff;
+  margin: 1rem;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.info-subContainer-1 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.info-title {
+  text-align: center;
+}
+
+.info-main-title {
+  background-color: #333333;
+  color: white;
+}
+
+.sprite-artwork {
+  width: 15rem;
+}
+
+/* POKEMON TYPES COLOR */
+
+.main-types {
+  display: block;
+  color: white;
+  font-size: 1.2rem;
+  text-align: center;
+  line-height: 24px;
+  width: 12rem;
+}
+
+.info-top-right {
+  font-size: 12px;
+}
+
+/* Blue div */
+.blue-div {
+  background-color: #05aaba;
+  padding: 0.6rem;
+  font-size: 12px;
+}
+
+.abilites {
+  margin-left: 25%;
+  color: white;
+}
+
+/* Info container bottom */
+.sprites-in-game {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+}
+
+.sprite-individual {
+  margin: -5px 0 0px 0;
+  height: 12rem;
+}
+
+.sprites-in-game p {
+  text-align: center;
+  font-size: 1.4rem;
+}

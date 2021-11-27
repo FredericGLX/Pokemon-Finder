@@ -1,0 +1,103 @@
+{
+  "bug": {
+    "half": ["fighting", "grass", "ground"],
+    "double": ["fire", "flying", "rock"],
+    "zero": []
+  },
+  "dark": {
+    "half": ["dark", "ghost"],
+    "double": ["bug", "fighting", "fairy"],
+    "zero": ["psychic"]
+  },
+  "dragon": {
+    "half": ["electric", "fire", "grass", "water"],
+    "double": ["dragon", "ice", "fairy"],
+    "zero": []
+  },
+  "electric": {
+    "half": ["electric", "flying", "steel"],
+    "double": ["ground"],
+    "zero": []
+  },
+  "fairy": {
+    "half": ["bug", "dark", "fighting"],
+    "double": ["poison", "steel"],
+    "zero": ["dragon"]
+  },
+  "fighting": {
+    "half": ["bug", "dark", "rock"],
+    "double": ["fairy", "flying", "psychic"],
+    "zero": []
+  },
+  "fire": {
+    "half": ["bug", "fairy", "fire", "grass", "ice", "steel"],
+    "double": ["bug", "fire", "flying", "ice", "poison"],
+    "zero": []
+  },
+  "flying": {
+    "half": ["bug", "fighting", "grass"],
+    "double": ["electric", "ice", "rock"],
+    "zero": ["ground"]
+  },
+  "ghost": {
+    "half": ["bug", "poison"],
+    "double": ["ghost", "dark"],
+    "zero": ["normal", "fighting"]
+  },
+  "grass": {
+    "half": ["electric", "grass", "ground", "water"],
+    "double": ["bug", "fire", "flying", "ice", "poison"],
+    "zero": []
+  },
+  "ground": {
+    "half": ["poison", "rock"],
+    "double": ["grass", "ice", "water"],
+    "zero": ["electric"]
+  },
+  "ice": {
+    "half": ["ice"],
+    "double": ["fighting", "fire", "rock", "steel"],
+    "zero": []
+  },
+  "normal": {
+    "half": [],
+    "double": ["fighting"],
+    "zero": ["ghost"]
+  },
+  "poison": {
+    "half": ["bug", "fairy", "fighting", "grass", "poison"],
+    "double": ["ground", "psychic"],
+    "zero": []
+  },
+  "psychic": {
+    "half": ["fighting", "psychic"],
+    "double": ["bug", "dark", "ghost"],
+    "zero": []
+  },
+  "rock": {
+    "half": ["fire", "flying", "normal", "poison"],
+    "double": ["fighting", "grass", "ground", "steel", "water"],
+    "zero": []
+  },
+  "steel": {
+    "half": [
+      "bug",
+      "dragon",
+      "fairy",
+      "flying",
+      "grass",
+      "ice",
+      "normal",
+      "psychic",
+      "rock",
+      "steel"
+    ],
+    "double": ["fighting", "fire", "ground"],
+    "zero": ["poison"]
+  },
+  "water": {
+    "half": ["fire", "ice", "steel", "water"],
+    "double": ["electric", "grass"],
+    "zero": []
+  }
+}

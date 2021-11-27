@@ -1,0 +1,28 @@
+.type-effectiveness-container {
+  background-color: #ffff;
+  margin: 1rem;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.type-effectiveness-container h1 {
+  background-color: #333333;
+  text-align: center;
+  color: white;
+  margin-top: 5px;
+}
+
+.type-effectiveness-container h2 {
+  padding: 5px;
+}
+
+.type-coverage {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 700px) {
+  .type-effectiveness-container h1 h2,
+  .type-coverage {
+    margin-left: 6px;
+    padding-bottom: 6px;
+  }
+}

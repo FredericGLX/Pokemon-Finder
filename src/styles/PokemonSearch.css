@@ -1,0 +1,27 @@
+.bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+.searchInput {
+  border-radius: 10px;
+  font-size: 1.6rem;
+  border: 1px solid #dcdcdc;
+  height: 3.6rem;
+  width: 24rem;
+  padding-left: 2rem;
+}
+
+.searchInput:hover {
+  box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+.searchInput:focus-within {
+  box-shadow: 1px 1px 8px 1px #dcdcdc;
+  outline: none;
+}
+.searchInput:focus::placeholder {
+  color: transparent;
+}

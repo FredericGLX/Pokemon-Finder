@@ -1,0 +1,47 @@
+.stats-container {
+  background-color: #ffff;
+  margin: 1rem;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.stats-container h1 {
+  background-color: #333333;
+  text-align: center;
+  color: white;
+  margin-top: 5px;
+}
+
+.stats-sub-container {
+  margin-top: 1rem;
+  margin-left: 20%;
+  padding-bottom: 6px;
+}
+
+table tr {
+  display: grid;
+  grid-template-columns: 8rem 3rem 2rem;
+}
+
+.stat-name {
+  text-align: right;
+  margin-right: 1rem;
+}
+
+.loadbar {
+  width: 10rem;
+  height: 12px;
+  background-color: #fff;
+}
+.stat-bars {
+  line-height: 25px;
+  height: 100%;
+  display: block;
+  font-size: 12px;
+  color: #fff;
+}
+
+@media (min-width: 700px) {
+  .stats-sub-container {
+    margin-left: 1%;
+  }
+}
