@@ -1,6 +1,6 @@
 # Pokemon Finder
 
-Prompt a pokemon name and renders its type's strengths and weaknesses as well as it's stats and other data.
+Enter a pokemon name and renders its type's strengths and weaknesses as well as its stats and other information (sprites, abilities...).
 
 ### Technologies used:
 
